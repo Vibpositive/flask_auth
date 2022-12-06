@@ -13,6 +13,7 @@ db = SQLAlchemy()
 
 def create_app():
     app = Flask(__name__)
+    # app = Flask(__name__)
     app.config['SECRET_KEY'] = '1FF2CEE5-6DAA-44D4-8248-5323569D2D99'
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False

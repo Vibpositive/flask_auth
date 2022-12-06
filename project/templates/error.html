@@ -1,0 +1,10 @@
+<!-- templates/error.html -->
+
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+    <p>Oops</p>
+    <p>{{ request.args.get('error') }}</p>
+</h1>
+{% endblock %}

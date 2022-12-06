@@ -1,0 +1,10 @@
+<!-- templates/profile.html -->
+
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  <p>New UUID has been generated</p>
+  {{ uuid_generated.token }}!
+</h1>
+{% endblock %}

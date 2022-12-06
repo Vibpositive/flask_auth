@@ -1,0 +1,10 @@
+.error {
+    color: red
+}
+.message {
+    color: green
+}
+.hero.is-primary {
+    background-color: #675Ce6;
+    color: #fff;
+}
